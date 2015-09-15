@@ -66,4 +66,22 @@ describe('API interface tests', function () {
             expect(arguments[0]).to.be.instanceof(Error);
         });
     });
+
+    it('KinoPromise.prototype.spread should provide chainable data', function () {
+        var promise = KinoPromise.all([
+            new KinoPromise(function (resolve, reject) { resolve(1) }),
+            new KinoPromise(function (resolve) { resolve(2) })
+        ]);
+
+        return promise.spread(function (one, two) {
+            return {
+                foo: one,
+                bar: two
+            };
+        }).then(function () {
+            expect(arguments).to.have.length(1);
+            expect(arguments[0].foo).to.equal(1);
+            expect(arguments[0].bar).to.equal(2);
+        });
+    });
 });
