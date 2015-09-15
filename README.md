@@ -2,7 +2,7 @@
 A bit of sugar on top of native ES2015 Promises.
 
 ## API
-### Promise.prototype.spread
+### KinoPromise.prototype.spread
 ```javascript
 KinoPromise.all([
     new KinoPromise(function (resolve) { resolve(1) }),
@@ -13,7 +13,7 @@ KinoPromise.all([
 });
 ```
 
-### Promise.all with an object passing
+### KinoPromise.all with an object passing
 ```javascript
 KinoPromise.all({
     foo: new KinoPromise(function (resolve) { resolve(1) }),
