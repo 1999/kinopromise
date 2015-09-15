@@ -1,6 +1,6 @@
 {
   "name": "kinopromise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A bit of sugar on top of native ES2015 Promises",
   "main": "index.js",
   "scripts": {
