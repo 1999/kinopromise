@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/1999/kinopromise.svg?style=flat)](https://travis-ci.org/1999/kinopromise)
 
-A bit of sugar on top of native ES2015 Promises.
+A bit of sugar on top of native ES2015 Promises. KinoPromise inherits from [pinkie](https://github.com/floatdrop/pinkie) promise polyfill in node 0.10, node 0.12 and io.js even if global.Promise is available. This is because of the fact that extending via node's util.inherits probably doesn't work for native promises.
 
 ## API
 ### KinoPromise.prototype.spread

@@ -4,6 +4,9 @@ var chai = require('chai');
 
 var expect = chai.expect;
 var KinoPromise = require('../');
+var Promise = (process.release && process.release.name === 'node')
+    ? global.Promise
+    : require('pinkie');
 
 describe('API interface tests', function () {
     it('global variables should exist', function () {
