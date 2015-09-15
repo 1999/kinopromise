@@ -1,4 +1,7 @@
 ## KinoPromise
+
+[![Build Status](https://img.shields.io/travis/1999/kinopromise.svg?style=flat)](https://travis-ci.org/1999/kinopromise)
+
 A bit of sugar on top of native ES2015 Promises.
 
 ## API
