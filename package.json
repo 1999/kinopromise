@@ -1,10 +1,11 @@
 {
   "name": "kinopromise",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A bit of sugar on top of native ES2015 Promises",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "prepublish": "./node_modules/.bin/babel lib/es2015.js --plugins=babel-plugin-transform-es2015-destructuring,babel-plugin-transform-es2015-spread --out-file lib/es2015-build.js"
   },
   "author": "Dmitry Sorin <info@staypositive.ru>",
   "license": "MIT",
@@ -12,6 +13,9 @@
     "pinkie": "1.0.0"
   },
   "devDependencies": {
+    "babel-cli": "6.1.2",
+    "babel-plugin-transform-es2015-destructuring": "6.0.18",
+    "babel-plugin-transform-es2015-spread": "6.0.14",
     "chai": "3.2.0",
     "mocha": "2.2.5"
   }
