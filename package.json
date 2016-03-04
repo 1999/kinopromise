@@ -1,9 +1,9 @@
 {
   "name": "kinopromise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bit of sugar on top of native ES2015 Promises",
   "repository": "git@github.com:1999/kinopromise.git",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers js:babel-register test/*.js",
     "prepublish": "./node_modules/.bin/babel index.js --out-file build.js"
