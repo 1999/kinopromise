@@ -1,0 +1,7 @@
+test/
+.babelrc
+.editorconfig
+.jscsrc
+.jshintrc
+.travis.yml
+index.js
