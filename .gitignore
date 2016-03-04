@@ -24,4 +24,4 @@ node_modules
 
 .idea
 
-lib/es2015-build.js
+build.js
