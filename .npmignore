@@ -4,4 +4,3 @@ test/
 .jscsrc
 .jshintrc
 .travis.yml
-index.js
