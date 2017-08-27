@@ -1,10 +1,9 @@
 ## KinoPromise
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/1999/kinopromise.svg)](https://greenkeeper.io/)
-
 [![Build Status](https://img.shields.io/travis/1999/kinopromise.svg?style=flat)](https://travis-ci.org/1999/kinopromise)
 [![Dependency Status](http://img.shields.io/david/1999/kinopromise.svg?style=flat)](https://david-dm.org/1999/kinopromise#info=dependencies)
 [![DevDependency Status](http://img.shields.io/david/dev/1999/kinopromise.svg?style=flat)](https://david-dm.org/1999/kinopromise#info=devDependencies)
+[![Greenkeeper badge](https://badges.greenkeeper.io/1999/kinopromise.svg)](https://greenkeeper.io/)
 
 A bit of sugar on top of native ES2015 Promises. KinoPromise inherits directly from native Promise object.
 
