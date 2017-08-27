@@ -13,13 +13,13 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.6.4",
-    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-es2015-destructuring": "^6.6.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.6.4",
     "babel-plugin-transform-es2015-parameters": "^6.6.4",
     "babel-plugin-transform-es2015-spread": "^6.6.4",
     "babel-register": "^6.6.0",
-    "chai": "3.2.0",
-    "mocha": "2.2.5"
+    "chai": "4.1.1",
+    "mocha": "3.5.0"
   }
 }
