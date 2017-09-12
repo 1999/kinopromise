@@ -19,7 +19,7 @@
     "babel-plugin-transform-es2015-parameters": "^6.6.4",
     "babel-plugin-transform-es2015-spread": "^6.6.4",
     "babel-register": "^6.6.0",
-    "chai": "4.1.2",
-    "mocha": "3.5.3"
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
   }
 }
